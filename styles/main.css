@@ -1,0 +1,115 @@
+﻿@charset "UTF-8";
+/**
+ * 
+ * @authors csy (you@example.org)
+ * @date    2015-03-31 11:18:56
+ * @version $Id$
+ * @desp    微信维修界面所有样式
+ *			注释类型为 /*注释  XXX部分  修改是可搜索“注释”两个字即可*/
+/*
+	导入重置样式表
+*/
+/* 
+ *  author : xjcjcsy
+ *	email  : xjcjcsy@qq.com
+ *	description : 微信维修部分样式重置表以及默认的
+ */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+body {
+  min-width: 320px;
+  max-width: 640px;
+  margin: 0 auto;
+  color: #333;
+  font-size: 14px;
+  font-family: "Microsoft YaHei";
+  position: relative; }
+
+a {
+  text-decoration: none; }
+
+ul, li {
+  list-style-type: none; }
+
+input {
+  line-height: normal;
+  outline: none;
+  font-family: "Microsoft YaHei"; }
+
+.input {
+  display: block;
+  width: 100%; }
+
+img {
+  border: 0; }
+
+a, button {
+  -webkit-tap-highlight-color: transparent;
+  outline: none; }
+
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, cite, code, del, dfn, em, img, q,
+s, samp, small, strike, strong, sub, sup, tt, var, dd, dl, dt, li, ol, ul, fieldset, form,
+label, legend, button, table, caption, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 100%;
+  line-height: 1;
+  font-family: inherit; }
+.hidden{display:none;}
+/* 首页滑动效果js */
+.index {
+  z-index: 10; }
+
+.page {
+  position: absolute;
+  width: 100%;
+  min-height: 100%;
+  overflow: auto; }
+
+
+/* 注释 首页 */
+.welcome .page {
+  position: absolute;
+  background-size: 100% 100%; }
+.welcome .load {
+  position: absolute;
+  z-index: 99;
+  background-color: #FFF; }
+.welcome .current {
+  z-index: 10; }
+.welcome .bar {
+  display: none;
+  position: fixed;
+  z-index: 99;
+  bottom: 10%; }
+  .welcome .bar .point {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    margin: 0 2px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    background-color: #FFF;
+    opacity: .4; }
+  .welcome .bar .now {
+    opacity: 1; }
+.welcome a.link {
+  display: block;
+  position: absolute;
+  width: 38.59375%;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 18px;
+  border: 1px solid #FFF;
+  top: 74.375%;
+  left: 30.15625%;
+  color: #FFF;
+  border-radius: 8px; }
+
+/*# sourceMappingURL=main.css.map */
